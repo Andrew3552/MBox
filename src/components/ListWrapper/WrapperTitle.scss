@@ -1,0 +1,23 @@
+.wrapper__title {
+  color: rgb(255, 255, 255);
+  font-family: "Mulish-Bold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 20px;
+  position: relative;
+  display: flex;
+  align-items: start;
+  margin: 68px 0 47px 15px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    bottom: 0;
+    height: 30px;
+    width: 5px;
+    border-radius: 50px;
+    background: linear-gradient(-8.53deg, rgb(38, 255, 242) 19.902%,rgb(50, 108, 255) 57.087%);;
+  }
+}

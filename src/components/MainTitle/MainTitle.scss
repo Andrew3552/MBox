@@ -1,0 +1,139 @@
+.main-title {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 5%;
+
+  &__wrapper {
+    flex: 1;
+    z-index: 1;
+    .main-title__title {
+      color: rgb(255, 255, 255);
+      font-family: "Marcellus-Regular";
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 70px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    .main-title__info__wrapper {
+      margin-bottom: 25px;
+      display: flex;
+      
+      & span:last-child {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+            margin-left: 42px;
+      }
+
+      .main-title__info {
+        color: rgb(255, 255, 255);
+        padding-right: 18px;
+
+        .star {
+          color: rgb(255, 184, 0);
+          
+        }
+      }
+
+      .main-title__info_content {
+        position: relative;
+        padding: 1px;
+        border-radius: 13px;
+        margin-right: 18px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(
+              to bottom right,
+              rgb(50, 108, 255),
+              rgb(38, 255, 242)
+            );
+            border-radius: inherit;
+            z-index: -1;    
+        }
+        .age {
+            background-color: black;
+            border-radius: 13px;
+            padding: 0 13px;
+            margin: 0;
+        }
+      }
+
+    }
+
+    .main-title__description {
+      color: rgb(194, 194, 194);
+      font-family: "Mulish-Regular";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 35px;
+      max-width: 500px;
+    }
+  }
+  .main-title__btns__wrapper {
+    display: flex;
+    gap: 30px;
+
+    .btn-watch {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(255, 255, 255);
+      font-family: "Mulish-ExtraBold";
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 20px;
+
+      &__icon {
+        color: rgb(255, 255, 255);
+      }
+    }
+
+    .more-info {
+      background: rgb(255, 255, 255);
+      box-shadow: none;
+      color: rgb(50, 50, 50);
+      font-family: "Mulish-ExtraBold";
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 20px;
+    }
+  }
+
+  &__img__wrapper {
+    flex: 1.65;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 25%; /* Задайте ширину псевдоэлемента */
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1),
+        transparent
+      ); /* Добавьте это */
+    }
+
+    .main-title__img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(16, 16, 18);
+  padding: 70px 14%;
+
+  
+
+}
+
+.footer__list_item {
+    margin-bottom: 19px;
+
+    &_link {
+        color: rgb(194, 194, 194);
+        font-family: "Mulish-SemiBold";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+}
+
+

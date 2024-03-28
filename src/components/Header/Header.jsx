@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <div className="header">
       <a href="#">
-        <img className="header__logo" src={Logo} alt="logo" />
+        <img className="header__logo" src={Logo}/>
       </a>
       <Button
         btnToggle

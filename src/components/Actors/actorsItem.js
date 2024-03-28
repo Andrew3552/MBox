@@ -1,9 +1,9 @@
-import actors1 from '../../assets/Actors/actors1.png';
-import actors2 from '../../assets/Actors/actors2.png';
-import actors3 from '../../assets/Actors/actors3.png';
-import actors4 from '../../assets/Actors/actors4.png';
-import actors5 from '../../assets/Actors/actors5.png';
-import actors6 from '../../assets/Actors/actors6.png';
+import actors1 from '../../assets/Actors/actors1.webp';
+import actors2 from '../../assets/Actors/actors2.webp';
+import actors3 from '../../assets/Actors/actors3.webp';
+import actors4 from '../../assets/Actors/actors4.webp';
+import actors5 from '../../assets/Actors/actors5.webp';
+import actors6 from '../../assets/Actors/actors6.webp';
 
 const actors = [
     {

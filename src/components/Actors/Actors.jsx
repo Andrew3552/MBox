@@ -13,7 +13,7 @@ export default function Actors() {
         {actors.map((item, index) => {
           return (
             <li className="wrapper__list_item_actors" key={index}>
-              <img className="wrapper__list_item_actors_img" src={item.img} alt="" />
+              <img className="wrapper__list_item_actors_img" src={item.img} alt={item.name} />
               <p className="wrapper__list_item_actors_text">{item.name}</p>
             </li>
           );

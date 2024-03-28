@@ -6,7 +6,7 @@ export default function Navigation({ isOpen }) {
       <ul className="header__nav_list">
         {navItems.map((item) => (
           <li className="header__nav_item" key={item}>
-            <a className="header__nav_link" href="#">{item}</a>
+            <a className="header__nav_link" aria-label="{item}" href="#">{item}</a>
           </li>
         ))}
       </ul>

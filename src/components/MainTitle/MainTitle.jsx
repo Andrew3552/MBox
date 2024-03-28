@@ -42,7 +42,7 @@ export default function MainTitle() {
         </div>
       </div>
       <div className="main-title__img__wrapper">
-        <img className="main-title__img" src={mainImg} alt="" />
+        <img className="main-title__img" src={mainImg} alt="Justice League" />
       </div>
     </div>
   );

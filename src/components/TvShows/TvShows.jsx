@@ -14,7 +14,7 @@ export default function TvShows() {
         {tvShows.map((url, index) => {
           return (
             <li className="wrapper__list_item" key={index}>
-              <img className="wrapper__list_item_img" src={url} alt="" />
+              <img className="wrapper__list_item_img" src={url} alt="" loading="lazy"/>
             </li>
           );
         })}

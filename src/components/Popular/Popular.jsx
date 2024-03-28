@@ -37,7 +37,7 @@ export default function Popular() {
               key={index}
               style={{ background: item.color }}
             >
-              <img className="wrapper__grid_item_img" src={item.img} alt="" />
+              <img className="wrapper__grid_item_img" src={item.img} alt="" loading="lazy" />
               <p className="wrapper__grid_item_text">{item.text}</p>
             </li>
           );

@@ -1,4 +1,4 @@
-import BigBuck from '../../assets/ComingSoon/BigBuck.png'
+import BigBuck from '../../assets/ComingSoon/BigBuck.webp'
 import year from '../../assets/ComingSoon/year.png'
 
 import './ComingSoon.scss'

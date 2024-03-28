@@ -2,7 +2,7 @@ import { BsFillTriangleFill } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
 
 import Button from "../Button/Button";
-import mainImg from "../../assets/mainImg.png";
+import mainImg from "../../assets/mainImg.webp";
 
 import "./MainTitle.scss";
 

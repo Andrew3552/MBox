@@ -9,7 +9,7 @@ export default function Actors() {
   return (
     <ListWrapper>
       <WrapperTitle children="Popular Actors & Directors" />
-      <ul className="wrapper__list">
+      <ul className="wrapper__list wrapper__list--actors">
         {actors.map((item, index) => {
           return (
             <li className="wrapper__list_item_actors" key={index}>

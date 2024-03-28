@@ -8,4 +8,13 @@
   );
   border: none;
   padding: 15px 30px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 18px 34px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 12px 18px;
+  }
 }

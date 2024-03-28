@@ -12,24 +12,24 @@ export default function Footer() {
   return (
     <div className="footer">
       <a href='#'><img className="footer__logo" src={Logo} alt="logo"/></a>
-      <FooterListWrapper>
+      <FooterListWrapper itemOne>
         {listOne.map((item, index) => (
-          <FooterList key={index}>{item}</FooterList>
+          <FooterList  key={index}>{item}</FooterList>
         ))}
       </FooterListWrapper>
-      <FooterListWrapper>
+      <FooterListWrapper itemTwo>
         {listTwo.map((item, index) => (
-          <FooterList key={index}>{item}</FooterList>
+          <FooterList  key={index}>{item}</FooterList>
         ))}
       </FooterListWrapper>
-      <FooterListWrapper>
+      <FooterListWrapper itemThree>
         {listThree.map((item, index) => (
-          <FooterList key={index}>{item}</FooterList>
+          <FooterList  key={index}>{item}</FooterList>
         ))}
       </FooterListWrapper>
-      <FooterListWrapper>
+      <FooterListWrapper itemFour>
         {listFour.map((item, index) => (
-          <FooterList key={index}>{item}</FooterList>
+          <FooterList  key={index}>{item}</FooterList>
         ))}
       </FooterListWrapper>
     </div>

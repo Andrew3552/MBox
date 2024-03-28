@@ -1,8 +1,8 @@
-export default function Navigation() {
+export default function Navigation({ isOpen }) {
   const navItems = ["Home", "TV Shows", "Movies", "Series"];
 
   return (
-    <nav className="header__nav">
+    <nav className={`header__nav ${isOpen ? "open" : ""}`}>
       <ul className="header__nav_list">
         {navItems.map((item) => (
           <li className="header__nav_item" key={item}>

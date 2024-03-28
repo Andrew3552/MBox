@@ -10,6 +10,10 @@ export default function Button(props) {
     btnWatch,
     btnSeeMore,
     btnRegister,
+    btnShowMore,
+    toggle,
+    onClick,
+    btnToggle
   } = props;
 
   return (
@@ -20,8 +24,13 @@ export default function Button(props) {
         { "more-info": moreInfo },
         { "btn-watch": btnWatch },
         { "btn__see-more": btnSeeMore },
-        { "btn__register": btnRegister }
+        { "btn__register": btnRegister },
+        { "btn__show-more": btnShowMore },
+        { "btn__toggle": btnToggle },
+       toggle
       )}
+      type="button"
+      onClick={onClick}
     >
       {children}
     </button>

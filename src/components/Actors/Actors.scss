@@ -1,6 +1,17 @@
+.wrapper__list--actors{
+  justify-content: space-between;
+}
+
+.wrapper__list_item_actors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
 .wrapper__list_item_actors_img {
   border-radius: 50%;
-  margin-bottom: 25px;
 }
 
 .wrapper__list_item_actors_text {
@@ -9,4 +20,9 @@
   font-size: 18px;
   line-height: 20px;
   margin-bottom: 94px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 30px;
+    
+  }
 }

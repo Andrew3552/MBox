@@ -7,6 +7,7 @@
   max-width: 1224px;
   margin: 0 auto;
   margin-bottom: 121px;
+  padding: 0 5%;
 
   &__img {
     width: 100%;
@@ -21,6 +22,15 @@
     align-items: center;
     gap: 100px;
 
+    @media screen and (max-width: 1024px) {
+      justify-content: space-around;
+    }
+
+    @media screen and (max-width: 820px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+
     .banner__title {
       color: rgb(255, 255, 255);
       font-family: "Mulish-Bold";
@@ -29,6 +39,20 @@
       text-align: left;
       text-transform: capitalize;
       max-width: 790px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 40px;
+        
+      }
+      
+      @media screen and (max-width: 820px) {
+        text-align: center;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 32px;
+        
+      }
     }
 
     .btn__register {

@@ -3,9 +3,21 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 121px;
+  padding: 0 5%;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    margin-bottom: 70px;
+
+  }
 
   &__img {
     border-radius: 20px 0 0 20px;
+    
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+    }
   }
 
   &__text {
@@ -18,8 +30,20 @@
     padding: 97px 88px;
     border-radius: 0 20px 20px 0;
 
+    @media screen and (max-width: 1024px) {
+      border-radius: 0 0 20px 20px;
+      width: 100%;
+      padding: 40px 30px;
+    }
+
     &-img {
       margin-bottom: 30px;
+
+      @media screen and (max-width: 1024px) {
+        width: 80%;
+        margin: auto;
+          
+      }
     }
 
     &-title {
@@ -29,6 +53,16 @@
       line-height: 20px;
       text-align: left;
       text-transform: capitalize;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 55px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 35px;
+      }
     }
   }
 }
